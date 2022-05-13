@@ -11,7 +11,7 @@ import { badWords } from 'expletives';
 console.log("Every bad word you can think of", badWords);
 
 // Check a string
-import { hasBadWords } from './dist/index.js';
+import { hasBadWords } from 'expletives';
 
 if (!hasBadWords('Hello World')) {
     console.log('Clean as a whistle');
