@@ -5,7 +5,7 @@ A list of bad words and some helper functions to check for them.
 npm install expletives
 
 ## Usage
-```js
+```javascript
 // Simple list of words
 import { badWords } from 'expletives';
 console.log("Every bad word you can think of", badWords);
@@ -20,6 +20,19 @@ if (!hasBadWords('Hello World')) {
 if (hasBadWords('f4ck')) {
     console.log('Dirty as a doorknob');
 }
+```
+
+## API
+```typescript
+// import any of these into your project as needed
+const exports = {
+    badWords: string
+    badWordsArray: string[]
+    minimalBadWordsArray: string[]
+    hasBadWords: (string) => true,
+    nazi: (string) => true,
+    nword: (string) => true
+};
 ```
 
 ## Contributions
