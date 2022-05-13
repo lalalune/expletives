@@ -41,7 +41,6 @@ Contributions welcome, please submit a PR and I'll review it.
 #### Contribution Ideas
 - Sensitive words and phrases that might not be outright offensive
 - Group different kinds of offensive together
-- Could be mixed with 
 
 #### Note on Filtering by Word Match
 "Bad words" implementations are prone to the [Scunthorpe Problem](https://en.wikipedia.org/wiki/Scunthorpe_problem) - please use with care
