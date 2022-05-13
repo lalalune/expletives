@@ -1,0 +1,35 @@
+{
+  "name": "expletives",
+  "version": "0.1.0",
+  "description": "A list of expletives and some functionss to test your strings for them",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "tsc && node ./test.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lalalune/expletives.git"
+  },
+  "keywords": [
+    "offensive",
+    "profanity",
+    "expletive",
+    "racist",
+    "racism",
+    "bad",
+    "words",
+    "slurs",
+    "toxic"
+  ],
+  "author": "shaw@thenexus.city",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lalalune/expletives/issues"
+  },
+  "homepage": "https://github.com/lalalune/expletives#readme",
+  "dependencies": {
+    "typescript": "^4.6.4"
+  }
+}
